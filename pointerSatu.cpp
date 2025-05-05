@@ -15,5 +15,9 @@ int main(){
     mhs.nim = 5;
     mhs.showNim(); //Member Access operator
 
+    mahasiswa &refMhs = mhs; //pointer reference refMhs
+    refMhs.nim = 2; //Member Access Operator
+    mhs.showNim();
+
     
 }
